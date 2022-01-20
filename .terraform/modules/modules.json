@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"myapp-alb","Source":"./modules/alb","Dir":"modules/alb"},{"Key":"myapp-subnet","Source":"./modules/subnet","Dir":"modules/subnet"},{"Key":"myapp-webserver","Source":"./modules/webserver","Dir":"modules/webserver"},{"Key":"","Source":"","Dir":"."}]}
