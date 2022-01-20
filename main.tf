@@ -3,24 +3,6 @@ provider "aws" {
 
 }
 
-/*
-resource "aws_vpc" "myapp-vpc" {
-  cidr_block       =  var.vpc_cidr_block
-  instance_tenancy = "default"
-
-  tags = {
-    Name = "${var.env_prefix}-vpc"
-  }
-}
-*/
-
-
-terraform {
-  backend "s3" {
-    encrypt = true
-  }
-}
-
 
 module "myapp-subnet" {
 	source			= "./modules/subnet"
