@@ -1,5 +1,5 @@
 output "alb_dns_name" {
-        value = "${module.myapp-alb.alb_dns}"
+        value = "${module.myapp-alb.my_alb_dns_name}"
 
 }
 
