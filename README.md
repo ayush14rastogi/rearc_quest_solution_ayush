@@ -2,7 +2,7 @@
 this repo is the solution for rearc quest using terraform and docker over AWS
 # rearc_quest_solution_ayush
 
-1. you need to install the terraform and configure the aws user with correct IAM policy which can manage S3,EC2,VPC,ALB
+1. you need to install the terraform and configure the aws user with correct IAM policy which can manage EC2,VPC,ALB
 2. After cloning this repo and go to rearc_quest_solution_ayush and run below command
 
 terraform init 
