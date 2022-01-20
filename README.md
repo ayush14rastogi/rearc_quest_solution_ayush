@@ -16,6 +16,7 @@ terraform  plan
 terraform  apply  --auto-approve
 
 6. to destory infra first delete the alb resource and then complete infra
-terraform  destroy -target=module.myapp-alb 
 
-terraform  destroy
+ terraform  destroy -target=module.myapp-alb  
+
+ terraform  destroy
