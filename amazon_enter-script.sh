@@ -16,9 +16,9 @@ git clone https://github.com/rearc/quest.git /home/${USERNAME}/quest
 cp /tmp/Dockerfile /home/${USERNAME}/quest/ 
 
 cd /home/${USERNAME}/quest/ ; docker build -t docker-reacr-app . 
-echo 'export SECRET_WORD="Bruce Wayne is BATMANN"' >> /home/ec2-user/.bashrc
+#echo 'export SECRET_WORD="Bruce Wayne is BATMANN"' >> /home/ec2-user/.bashrc
 source .bashrc
-docker run --env SECRET_WORD --name docker-reacr-app -d -p 80:3000 docker-reacr-app
+docker run --env SECRET_WORD="Bruce Wayne is BATMANN" --name docker-reacr-app -d -p 80:3000 docker-reacr-app
 
 
 
